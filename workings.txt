@@ -1,0 +1,27 @@
+Node:
+    Contains information and methods for node objects.
+
+Graph:
+    Basically just a node list.
+
+FormatOutput:
+    Each method outputs a part of the table.
+
+MainSearcher:
+    Constructs the graph and runs the searches on it.
+
+
+Searches:
+    SearchIterativeDeepening:
+        Depth first limited by an incrementing depth.
+        Recursive function.
+
+    SearchUniformSearch:
+        Searches based on the shortest distances.
+        Guaranteed to find the shortest route to each node.
+        Will likely take a while.
+
+    SearchBestFirst:
+        Searches based on the value of each node.
+        Works due to the way the graph is setup.
+        Is better when using Euclidean or Manhattan distance.
